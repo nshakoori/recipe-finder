@@ -16,7 +16,7 @@ class RecipeModal extends Component  {
                 <div className="modal-content">
                     <span className="close" onClick={this.props.onClose}>&times;</span>
                     <p>{recipe.strMeal}</p>
-                    <i className="fas fa-heart" style={ {"fontSize": "48px", "color": "red"} }></i>
+                    <i className="fas fa-heart"></i>
                 </div>
 
             </div>
